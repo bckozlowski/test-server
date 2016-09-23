@@ -1,0 +1,22 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "description": "A static file server",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "nodejs server/server.js"
+  },
+  "dependencies" :{
+      "express" : "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bckozlowski/test-server.git"
+  },
+  "author": "Brett Kozlowski and Kevin Kozlowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bckozlowski/test-server/issues"
+  },
+  "homepage": "https://github.com/bckozlowski/test-server#readme"
+}
